@@ -1,0 +1,16 @@
+dependencies:
+  esm: 3.0.84
+  hot-module: 'link:../../packages/hot-module'
+packages:
+  /esm/3.0.84:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-SzSGoZc17S7P+12R9cg21Bdb7eybX25RnIeRZ80xZs+VZ3kdQKzqTp2k4hZJjR7p9l0186TTXSgrxzlMDBktlw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  esm: ^3.0.84
+  hot-module: ^1.0.0

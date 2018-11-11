@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "start": "node -r hot-module src"
+    "start": "node --require esm src"
   },
   "dependencies": {
     "hot-module": "^1.0.0"

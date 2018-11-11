@@ -1,7 +1,0 @@
-dependencies:
-  hot-module: "link:../../packages/hot-module"
-registry: "https://registry.npmjs.org/"
-shrinkwrapMinorVersion: 9
-shrinkwrapVersion: 3
-specifiers:
-  hot-module: ^1.0.0
