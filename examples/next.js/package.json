@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "node-hot-reloader": "^1.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  }
+}

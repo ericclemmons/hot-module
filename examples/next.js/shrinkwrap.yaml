@@ -1,0 +1,24 @@
+dependencies:
+  '@babel/runtime': 7.1.5
+  node-hot-reloader: 'link:../../packages/node-hot-reloader'
+packages:
+  /@babel/runtime/7.1.5:
+    dependencies:
+      regenerator-runtime: 0.12.1
+    dev: false
+    resolution:
+      integrity: sha512-xKnPpXG/pvK1B90JkwwxSGii90rQGKtzcMt2gI5G6+M0REXaq6rOHsGC2ay6/d0Uje7zzvSzjEzfR3ENhFlrfA==
+  /regenerator-runtime/0.12.1:
+    dev: false
+    resolution:
+      integrity: sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@babel/runtime': ^7.1.5
+  express: ^4.16.4
+  next: ^7.0.2
+  node-hot-reloader: ^1.0.0
+  react: ^16.6.1
+  react-dom: ^16.6.1
