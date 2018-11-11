@@ -4,6 +4,7 @@
     "start": "node --require esm src"
   },
   "dependencies": {
+    "esm": "^3.0.84",
     "hot-module": "^0.0.1"
   }
 }
