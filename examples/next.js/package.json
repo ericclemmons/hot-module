@@ -11,7 +11,7 @@
     "@babel/runtime": "^7.1.5",
     "express": "^4.16.4",
     "next": "^7.0.2",
-    "node-hot-reloader": "^1.0.0",
+    "hot-module": "^1.0.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "styled-jsx": "^3.1.1"

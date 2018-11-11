@@ -1,6 +1,6 @@
 const { createServer } = require("http");
 
-require("node-hot-reloader")();
+require("hot-module")();
 
 if (module.hot) {
   module.hot.accept("./app", function() {

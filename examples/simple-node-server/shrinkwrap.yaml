@@ -1,7 +1,7 @@
 dependencies:
-  node-hot-reloader: 'link:../../packages/node-hot-reloader'
-registry: 'https://registry.npmjs.org/'
+  hot-module: "link:../../packages/hot-module"
+registry: "https://registry.npmjs.org/"
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
-  node-hot-reloader: ^1.0.0
+  hot-module: ^1.0.0

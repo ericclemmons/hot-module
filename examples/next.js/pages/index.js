@@ -19,7 +19,7 @@ export default class App extends React.Component {
     return (
       <section>
         <h1>
-          <code>node-hot-reloader</code>
+          <code>hot-module</code>
         </h1>
 
         <p>

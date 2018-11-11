@@ -1,4 +1,4 @@
-require("node-hot-reloader")();
+require("hot-module")();
 
 const express = require("express");
 
