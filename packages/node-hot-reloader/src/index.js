@@ -164,7 +164,7 @@ function enableModuleReplacement(opts) {
       // Module API
       active: true,
       accept: function(dep, callback) {
-        if (typeof dep === "undefined") hot._selfAccepted = true;
+        if (dep === undefined) hot._selfAccepted = true;
         else if (typeof dep === "function") hot._selfAccepted = dep;
         else if (typeof dep === "object")
           for (var i = 0; i < dep.length; i++)
@@ -174,7 +174,7 @@ function enableModuleReplacement(opts) {
           hot._acceptedDependencies[resolve(dep)] = callback || function() {};
       },
       decline: function(dep) {
-        if (typeof dep === "undefined") hot._selfDeclined = true;
+        if (dep === undefined) hot._selfDeclined = true;
         else if (typeof dep === "object")
           for (var i = 0; i < dep.length; i++)
             hot._declinedDependencies[resolve(dep[i])] = true;
