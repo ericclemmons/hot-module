@@ -1,0 +1,4 @@
+# https://pnpm.js.org/docs/en/workspace.html
+packages:
+  - "examples/**"
+  - "packages/**"
