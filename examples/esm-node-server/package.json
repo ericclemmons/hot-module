@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "node --require esm src"
   },
   "dependencies": {
-    "hot-module": "^1.0.0"
+    "hot-module": "^0.0.1"
   }
 }

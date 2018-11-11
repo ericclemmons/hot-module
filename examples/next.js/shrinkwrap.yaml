@@ -130,7 +130,7 @@ shrinkwrapVersion: 3
 specifiers:
   '@babel/runtime': ^7.1.5
   express: ^4.16.4
-  hot-module: ^1.0.0
+  hot-module: ^0.0.1
   next: ^7.0.2
   react: ^16.6.1
   react-dom: ^16.6.1

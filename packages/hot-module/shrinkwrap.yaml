@@ -88,7 +88,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
-  /balanced-match/1.0.0:
+  /balanced-match/0.0.1:
     dev: true
     resolution:
       integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
@@ -97,7 +97,7 @@ packages:
       ansi-align: 2.0.0
       camelcase: 4.1.0
       chalk: 2.4.1
-      cli-boxes: 1.0.0
+      cli-boxes: 0.0.1
       string-width: 2.1.1
       term-size: 1.2.0
       widest-line: 2.0.1
@@ -108,7 +108,7 @@ packages:
       integrity: sha512-TNPjfTr432qx7yOjQyaXm3dSR0MH9vXp7eT1BFSl/C51g+EFnOR9hTg1IreahGBmDNCehscshe45f+C1TBZbLw==
   /brace-expansion/1.1.11:
     dependencies:
-      balanced-match: 1.0.0
+      balanced-match: 0.0.1
       concat-map: 0.0.1
     dev: true
     resolution:
@@ -177,7 +177,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A==
-  /cli-boxes/1.0.0:
+  /cli-boxes/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -237,7 +237,7 @@ packages:
       dot-prop: 4.2.0
       graceful-fs: 4.1.15
       make-dir: 1.3.0
-      unique-string: 1.0.0
+      unique-string: 0.0.1
       write-file-atomic: 2.3.0
       xdg-basedir: 3.0.0
     dev: true
@@ -273,7 +273,7 @@ packages:
       node: '>=4.8'
     resolution:
       integrity: sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
-  /crypto-random-string/1.0.0:
+  /crypto-random-string/0.0.1:
     dev: true
     engines:
       node: '>=4'
@@ -315,7 +315,7 @@ packages:
   /del/3.0.0:
     dependencies:
       globby: 6.1.0
-      is-path-cwd: 1.0.0
+      is-path-cwd: 0.0.1
       is-path-in-cwd: 1.0.1
       p-map: 1.2.0
       pify: 3.0.0
@@ -361,9 +361,9 @@ packages:
       get-stream: 3.0.0
       is-stream: 1.1.0
       npm-run-path: 2.0.2
-      p-finally: 1.0.0
+      p-finally: 0.0.1
       signal-exit: 3.0.2
-      strip-eof: 1.0.0
+      strip-eof: 0.0.1
     dev: true
     engines:
       node: '>=4'
@@ -375,9 +375,9 @@ packages:
       get-stream: 3.0.0
       is-stream: 1.1.0
       npm-run-path: 2.0.2
-      p-finally: 1.0.0
+      p-finally: 0.0.1
       signal-exit: 3.0.2
-      strip-eof: 1.0.0
+      strip-eof: 0.0.1
     dev: true
     engines:
       node: '>=4'
@@ -424,7 +424,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
-  /fs.realpath/1.0.0:
+  /fs.realpath/0.0.1:
     dev: true
     resolution:
       integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
@@ -440,7 +440,7 @@ packages:
       integrity: sha1-+YX+3MCpqledyI16/waNVcxiUaA=
   /glob/7.1.3:
     dependencies:
-      fs.realpath: 1.0.0
+      fs.realpath: 0.0.1
       inflight: 1.0.6
       inherits: 2.0.3
       minimatch: 3.0.4
@@ -474,14 +474,14 @@ packages:
       create-error-class: 3.0.2
       duplexer3: 0.1.4
       get-stream: 3.0.0
-      is-redirect: 1.0.0
+      is-redirect: 0.0.1
       is-retry-allowed: 1.1.0
       is-stream: 1.1.0
       lowercase-keys: 1.0.1
       safe-buffer: 5.1.2
       timed-out: 4.0.1
       unzip-response: 2.0.1
-      url-parse-lax: 1.0.0
+      url-parse-lax: 0.0.1
     dev: true
     engines:
       node: '>=4'
@@ -511,7 +511,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
-  /has-yarn/1.0.0:
+  /has-yarn/0.0.1:
     dev: true
     engines:
       node: '>=4'
@@ -605,7 +605,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
-  /is-builtin-module/1.0.0:
+  /is-builtin-module/0.0.1:
     dependencies:
       builtin-modules: 1.1.1
     dev: true
@@ -628,7 +628,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-s6tfsaQaQi3JNciBH6shVqEDvhGut0SUXr31ag8Pd8BBbVVlcGfWhpPmEOoM6RJ5TFhbypvf5yyRw/VXW1IiWg==
-  /is-fullwidth-code-point/1.0.0:
+  /is-fullwidth-code-point/0.0.1:
     dependencies:
       number-is-nan: 1.0.1
     dev: true
@@ -651,7 +651,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-Df2Y9akRFxbdU13aZJL2e/PSWoA=
-  /is-npm/1.0.0:
+  /is-npm/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -671,7 +671,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-NqCa4Sa2d+u7BWc6CukaObG3Fh+CU9bvixbpcXYhy2VvYS7vVGIdAgnIS5Ks3A/cqk4rebLJ9s8zBstT2aKnIA==
-  /is-path-cwd/1.0.0:
+  /is-path-cwd/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -703,7 +703,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-eaKp7OfwlugPNtKy87wWwf9L8/o=
-  /is-redirect/1.0.0:
+  /is-redirect/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -948,7 +948,7 @@ packages:
   /normalize-package-data/2.4.0:
     dependencies:
       hosted-git-info: 2.7.1
-      is-builtin-module: 1.0.0
+      is-builtin-module: 0.0.1
       semver: 5.6.0
       validate-npm-package-license: 3.0.4
     dev: true
@@ -962,7 +962,7 @@ packages:
       del: 3.0.0
       execa: 0.10.0
       github-url-from-git: 1.5.0
-      has-yarn: 1.0.0
+      has-yarn: 0.0.1
       inquirer: 5.2.0
       issue-regex: 2.0.0
       listr: 0.14.2
@@ -1028,7 +1028,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
-  /p-finally/1.0.0:
+  /p-finally/0.0.1:
     dev: true
     engines:
       node: '>=4'
@@ -1036,7 +1036,7 @@ packages:
       integrity: sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
   /p-limit/1.3.0:
     dependencies:
-      p-try: 1.0.0
+      p-try: 0.0.1
     dev: true
     engines:
       node: '>=4'
@@ -1058,13 +1058,13 @@ packages:
       integrity: sha512-r6zKACMNhjPJMTl8KcFH4li//gkrXWfbD6feV8l6doRHlzljFWGJ2AP6iKaCJXyZmAUMOPtvbW7EXkbWO/pLEA==
   /p-timeout/2.0.1:
     dependencies:
-      p-finally: 1.0.0
+      p-finally: 0.0.1
     dev: true
     engines:
       node: '>=4'
     resolution:
       integrity: sha512-88em58dDVB/KzPEx1X0N3LwFfYZPyDc4B6eF38M1rk9VTZMbxXXgjugz8mmwpS9Ox4BDZ+t6t3QP5+/gazweIA==
-  /p-try/1.0.0:
+  /p-try/0.0.1:
     dev: true
     engines:
       node: '>=4'
@@ -1297,13 +1297,13 @@ packages:
       integrity: sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
   /shebang-command/1.2.0:
     dependencies:
-      shebang-regex: 1.0.0
+      shebang-regex: 0.0.1
     dev: true
     engines:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-RKrGW2lbAzmJaMOfNj/uXer98eo=
-  /shebang-regex/1.0.0:
+  /shebang-regex/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -1350,7 +1350,7 @@ packages:
   /string-width/1.0.2:
     dependencies:
       code-point-at: 1.1.0
-      is-fullwidth-code-point: 1.0.0
+      is-fullwidth-code-point: 0.0.1
       strip-ansi: 3.0.1
     dev: true
     engines:
@@ -1388,7 +1388,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
-  /strip-eof/1.0.0:
+  /strip-eof/0.0.1:
     dev: true
     engines:
       node: '>=0.10.0'
@@ -1486,9 +1486,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
-  /unique-string/1.0.0:
+  /unique-string/0.0.1:
     dependencies:
-      crypto-random-string: 1.0.0
+      crypto-random-string: 0.0.1
     dev: true
     engines:
       node: '>=4'
@@ -1508,7 +1508,7 @@ packages:
       import-lazy: 2.1.0
       is-ci: 1.2.1
       is-installed-globally: 0.1.0
-      is-npm: 1.0.0
+      is-npm: 0.0.1
       latest-version: 3.1.0
       semver-diff: 2.1.0
       xdg-basedir: 3.0.0
@@ -1517,7 +1517,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-gwMdhgJHGuj/+wHJJs9e6PcCszpxR1b236igrOkUofGhqJuG+amlIKwApH1IW1WWl7ovZxsX49lMBWLxSdm5Dw==
-  /url-parse-lax/1.0.0:
+  /url-parse-lax/0.0.1:
     dependencies:
       prepend-http: 1.0.4
     dev: true
