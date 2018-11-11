@@ -2,8 +2,14 @@
   "name": "hot-module",
   "version": "1.0.0",
   "main": "src/index.js",
+  "scripts": {
+    "release": "np"
+  },
   "dependencies": {
     "is-builtin-module": "^3.0.0",
     "node-watch": "^0.5.8"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
   }
 }

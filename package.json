@@ -2,5 +2,8 @@
   "private": true,
   "version": "1.0.0",
   "author": "Eric Clemmons <eric@smarterspam.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "cd packages/hot-module; pnpm run release"
+  }
 }
