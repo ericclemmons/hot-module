@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "node-hot-reloader": "^1.0.0"
+  }
+}
