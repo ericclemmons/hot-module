@@ -1,0 +1,9 @@
+{
+  "name": "node-hot-reloader",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "is-builtin-module": "^3.0.0",
+    "node-watch": "^0.5.8"
+  }
+}

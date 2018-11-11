@@ -1,0 +1,28 @@
+dependencies:
+  is-builtin-module: 3.0.0
+  node-watch: 0.5.8
+packages:
+  /builtin-modules/3.0.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-hMIeU4K2ilbXV6Uv93ZZ0Avg/M91RaKXucQ+4me2Do1txxBDyDZWCBa5bJSLqoNTRpXTLwEzIk1KmloenDDjhg==
+  /is-builtin-module/3.0.0:
+    dependencies:
+      builtin-modules: 3.0.0
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-/93sDihsAD652hrMEbJGbMAVBf1qc96kyThHQ0CAOONHaE3aROLpTjDe4WQ5aoC5ITHFxEq1z8XqSU7km+8amw==
+  /node-watch/0.5.8:
+    dev: false
+    resolution:
+      integrity: sha512-HXiCg9YS3IAzEJ4O3CNlUjsoYCxg4hVbo9oAEBQoiJV7p/R7PT6/ekXM9S3D2K3jUjSQOOjtuW/LgcSiwh/btQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  is-builtin-module: ^3.0.0
+  node-watch: ^0.5.8
