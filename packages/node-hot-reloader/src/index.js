@@ -10,7 +10,19 @@ function enableModuleReplacement(opts) {
   function collectDependencies(module) {
     let paths = [];
     function pathsToAcceptingModules(path, root) {
+      // TODO When saving pages in Next, root is undefined
+      if (!root) {
+        return;
+      }
+
       const requiredMe = parents[root.filename];
+
+      // TODO With Next there's some sort of race-condition where
+      // module.hot isn't set yet, but dependencies are already referencing it.
+      if (!module.hot) {
+        return;
+      }
+
       if (module.hot._selfAccepted) {
         paths.push(path.concat(root.filename));
         return;
