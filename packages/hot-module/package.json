@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "scripts": {
-    "release": "np"
+    "release": "np --yolo"
   },
   "dependencies": {
     "is-builtin-module": "^3.0.0",
