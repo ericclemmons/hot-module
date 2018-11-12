@@ -4,6 +4,6 @@
   "author": "Eric Clemmons <eric@smarterspam.com>",
   "license": "MIT",
   "scripts": {
-    "release": "cd packages/hot-module; pnpm run release"
+    "release": "pnpm m run release --workspace-concurrency 1"
   }
 }
