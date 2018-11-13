@@ -9,7 +9,7 @@ require("hot-module")();
 if (module.hot) {
   // 👇 Watch `./app` for changes
   module.hot.accept("./app", function() {
-    console.log("🔁  HMR Reloading `./app`");
+    console.log("🔁  Hot-reloaded `./app`");
   });
 
   console.info("✅  Server-side HMR Enabled!");

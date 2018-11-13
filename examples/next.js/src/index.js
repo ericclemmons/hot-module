@@ -6,7 +6,7 @@ const app = require("./app");
 
 if (module.hot) {
   module.hot.accept("./app", function() {
-    console.log("🔁  HMR Reloading `./app`");
+    console.log("🔁  Hot-reloaded `./app`");
   });
 
   console.info("✅  Server-side HMR Enabled!");
