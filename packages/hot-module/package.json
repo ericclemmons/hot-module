@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "repository": "https://github.com/ericclemmons/hot-module",
   "scripts": {
-    "release": "np --yolo"
+    "release": "np",
+    "test": "echo No tests"
   },
   "dependencies": {
     "is-builtin-module": "^3.0.0",
